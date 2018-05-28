@@ -1,7 +1,8 @@
 {
   "name": "ipfs-repo",
-  "version": "0.18.7",
+  "version": "0.21.0",
   "description": "IPFS Repo implementation",
+  "leadMaintainer": "Jacob Heun <jacobheun@gmail.com>",
   "main": "src/index.js",
   "browser": {
     "rimraf": false,
@@ -42,13 +43,13 @@
     "npm": ">=3.0.0"
   },
   "devDependencies": {
-    "aegir": "^12.4.0",
+    "aegir": "^13.1.0",
     "chai": "^4.1.2",
     "dirty-chai": "^2.0.1",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.5",
     "memdown": "^1.4.1",
-    "multihashes": "~0.4.12",
-    "multihashing-async": "^0.4.7",
+    "multihashes": "~0.4.13",
+    "multihashing-async": "^0.4.8",
     "ncp": "^2.0.0",
     "pre-commit": "^1.2.2",
     "rimraf": "^2.6.2"
@@ -57,21 +58,21 @@
     "async": "^2.6.0",
     "base32.js": "~0.1.0",
     "big.js": "^5.0.3",
-    "cids": "~0.5.2",
+    "cids": "~0.5.3",
     "datastore-core": "~0.4.0",
     "datastore-fs": "~0.4.2",
     "datastore-level": "github:krahimian/js-datastore-level",
     "debug": "^3.1.0",
     "interface-datastore": "~0.4.2",
-    "ipfs-block": "~0.6.1",
+    "ipfs-block": "~0.7.1",
     "level-js": "timkuijsten/level.js#idbunwrapper",
     "leveldown": "github:krahimian/leveldown",
     "lock-me": "^1.0.3",
     "lodash.get": "^4.4.2",
     "lodash.has": "^4.5.2",
     "lodash.set": "^4.3.2",
-    "multiaddr": "^3.0.1",
-    "pull-stream": "^3.6.1"
+    "multiaddr": "^4.0.0",
+    "pull-stream": "^3.6.7"
   },
   "license": "MIT",
   "contributors": [
@@ -82,6 +83,9 @@
     "Friedel Ziegelmayer <dignifiedquire@gmail.com>",
     "Greenkeeper <support@greenkeeper.io>",
     "Henrique Dias <hacdias@gmail.com>",
+    "Hugo Dias <hugomrdias@gmail.com>",
+    "Jacob Heun <jacobheun@gmail.com>",
+    "Jonah Weissman <jonahrweissman@gmail.com>",
     "Jonathan <jkrone@vt.edu>",
     "Justin Chase <justin.m.chase@gmail.com>",
     "Lars-Magnus Skog <ralphtheninja@riseup.net>",

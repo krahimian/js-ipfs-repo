@@ -1,3 +1,38 @@
+<a name="0.21.0"></a>
+# [0.21.0](https://github.com/ipfs/js-ipfs-repo/compare/v0.20.1...v0.21.0) (2018-05-06)
+
+
+
+<a name="0.20.1"></a>
+## [0.20.1](https://github.com/ipfs/js-ipfs-repo/compare/v0.20.0...v0.20.1) (2018-05-05)
+
+
+### Features
+
+* add uniform error to isInitialized ([755b5c6](https://github.com/ipfs/js-ipfs-repo/commit/755b5c6))
+
+
+
+<a name="0.20.0"></a>
+# [0.20.0](https://github.com/ipfs/js-ipfs-repo/compare/v0.19.0...v0.20.0) (2018-04-23)
+
+
+### Bug Fixes
+
+* fix tests for ci ([d1457cd](https://github.com/ipfs/js-ipfs-repo/commit/d1457cd))
+
+
+### Features
+
+* **lock:** allow for custom lock ([c97db6c](https://github.com/ipfs/js-ipfs-repo/commit/c97db6c))
+
+
+
+<a name="0.19.0"></a>
+# [0.19.0](https://github.com/ipfs/js-ipfs-repo/compare/v0.18.7...v0.19.0) (2018-04-10)
+
+
+
 <a name="0.18.7"></a>
 ## [0.18.7](https://github.com/ipfs/js-ipfs-repo/compare/v0.18.6...v0.18.7) (2018-01-30)
 

@@ -28,6 +28,36 @@ describe('custom options tests', () => {
     const repo = new Repo(repoPath)
     expect(repo.options).to.deep.equal(expectedRepoOptions())
   })
+
+  it('allows for a custom lock', () => {
+    const lock = {
+      lock: (path, callback) => { },
+      locked: (path, callback) => { }
+    }
+
+    const repo = new Repo(repoPath, {
+      lock
+    })
+
+    expect(repo._getLocker()).to.deep.equal(lock)
+  })
+
+  it('ensures a custom lock has a .close method', (done) => {
+    const lock = {
+      lock: (path, callback) => {
+        callback(null, {})
+      }
+    }
+
+    const repo = new Repo(repoPath, {
+      lock
+    })
+
+    expect(
+      () => repo._openLock(repo.path)
+    ).to.throw('Locks must have a close method')
+    done()
+  })
 })
 
 function noop () {}
